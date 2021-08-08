@@ -19,10 +19,11 @@ body{
     background-position: bottom right;
     width: auto;
     background-attachment: fixed;
+    margin-bottom: 80px;
 }
-.cabecalho h1 {
+.cabecalho h1{
     text-align: center;
-    margin-top: 38px;
+    margin-top: 98px;
     font-family: sans-serif;
     letter-spacing: 1px;
     
@@ -42,14 +43,12 @@ body{
     text-transform: uppercase;
     font-size: 14px;
     font-family: sans-serif;
-    
 }
-
 #ul2{
     margin: auto;
 }
 #ul2 li{
-    list-style: circle;
+    list-style: square;
 }
 h1{
     text-align: center;
@@ -66,8 +65,7 @@ h1{
     background-color: rgba(172, 126, 3, 0.44);
     margin: 112px 550px;
     font-size: 25px;
-    
-    
+    margin-top: 140px;
 }
 h2{
     text-align: center;
@@ -76,7 +74,6 @@ h2{
     font-style: oblique;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.51);
     color: #009d00;
-    
 }
 .Principal{
     background-color: rgba(255, 255, 255, 0.77);
@@ -96,7 +93,7 @@ h2{
     text-align: center;
     font-size: 25px;
     color: #009d00;
-     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.51);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.51);
 }
 #animation{
     color: black;
@@ -113,7 +110,7 @@ h2{
     margin-bottom: 15px;
     text-align: justify;
     color: black;
-    
+    position: relative;
 }
 .esquerda strong{
     text-align: center;
@@ -125,9 +122,6 @@ h2{
 }
 .imgleft{
     width: 110%;
-   
-    
-    
 }
 .direitaimg{
     float: right;
@@ -141,8 +135,6 @@ h2{
     margin-right: 15px;
     float: left;
     display:block;
-    
-    
 }
 
 .direita{
@@ -159,13 +151,20 @@ h2{
     margin-bottom: 15px;
     text-align: justify;
     color: black;
+    
 }
 .questionario{
-    float: right;
     background-color: rgba(255, 255, 255, 0);
-    margin-top: 10px;
-    padding-right: 20px;
-    display: inline-block;
+    padding: 0 0 0 0;
+    margin-left: 9px;
+    display: block;
+    position: absolute;
+    margin-top: -90px;
+    width: 331px;
+    background-image: url(white%20enviro.jpg);
+    border: 2px solid rgba(183, 114, 20, 0.7);
+    border-radius: 5px;
+    
 }
 
 .rodape{
@@ -173,18 +172,19 @@ h2{
     background-color: rgba(255, 255, 255, 0.77);
     margin-top: 12px;
     padding: 20px;
-    margin-left: 12px;
-    margin-right: 12px;
-    margin-bottom: 15px;
+    padding-right:8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 5px;
     clear: both;
     border: 2px solid rgba(183, 114, 20, 0.7);
     border-radius: 5px;
     color: rgb(0, 0, 0);
+    margin-top: 65px;
     
 }
 
 .trot{
-    
     font-size: 12px;
     padding-left: 70px;
 }
@@ -192,7 +192,7 @@ h2{
     padding-left: 20px;
 }
 .underline{
-    text-decoration: underline;
+    text-decoration: none;
 }
 .font{
     text-align: left;
@@ -202,7 +202,6 @@ a{
     color: white;
     padding: 5px;
     display: block;
-    
 }
 a:visited{
     color: white;
@@ -236,5 +235,4 @@ a:visited{
 .convite a:hover{
     background-color: rgba(0, 0, 0, 0.21);
     transition: background .3s linear;
-
 }
