@@ -121,6 +121,8 @@ h2{
 }
 .medidas{
     height: 250px;
+    display: inline;
+    margin-left: 20px;
 }
 .imgleft{
     width: 110%;
@@ -205,7 +207,14 @@ a:visited{
 }
 .cabecalho li a:hover{
     background-color: rgba(0, 0, 0, 0.21);
-    
-    
-
+}
+.rodape a{
+    color: #ffffff;
+    width: 2px;
+    margin: 2px;
+    padding: 1px;
+    display: inline;
+}
+.rodape a:hover{
+    color: gray;
 }
